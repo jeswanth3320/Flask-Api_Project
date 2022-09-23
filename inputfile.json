@@ -1,0 +1,29 @@
+Table Creation http://127.0.0.1:5000/db_create
+
+MySQL:
+
+{
+	"db_name":"sql",
+	"table_name":"emp_table1",
+	"col1":"emp_id INT(10)",
+	"col2":"emp_name varchar(30)",
+	"col3":"emp_job varchar(30)
+
+}
+
+Insertion http://127.0.0.1:5000/db_insert
+{
+	"db_name":"sql",
+	"table_name":"emp_table1",
+	"emp_id":"49",
+	"emp_name":"Jeswanth",
+	"emp_job":"Data Engineer"
+
+}
+
+Bulk Insertion http://127.0.0.1:5000/db_bulkInsert
+
+{
+    "db_name":"sql",
+	"table_name":"emp_table1"
+}
